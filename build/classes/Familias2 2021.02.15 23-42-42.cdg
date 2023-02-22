@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Familias2">
+  <ClassDiagramComponents>
+    <Class name="ClaseMain" package="familias2" visibility="public" xPosition="716.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Familias" package="familias2" visibility="public" xPosition="22.0" yPosition="-288.0">
+      <Fields>
+        <Field name="id" type="String" visibility="private"/>
+        <Field name="padre" type="String" visibility="private"/>
+        <Field name="madre" type="String" visibility="private"/>
+        <Field name="pais" type="String" visibility="private"/>
+        <Field name="estado" type="String" visibility="private"/>
+        <Field name="ciudad" type="String" visibility="private"/>
+        <Field name="barrio" type="String" visibility="private"/>
+        <Field name="diccionario" type="String" visibility="private"/>
+        <Field name="telefono2" type="String" visibility="private"/>
+        <Field name="tieneCasaPropia" type="String" visibility="private"/>
+        <Field name="numeroCarros" type="String" visibility="private"/>
+        <Field name="numeroMascotas" type="String" visibility="private"/>
+        <Field name="numeroCasas" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getNumeroCasas" returnType="String" visibility="public"/>
+        <Method name="getId" returnType="String" visibility="public"/>
+        <Method name="getPadre" returnType="String" visibility="public"/>
+        <Method name="getMadre" returnType="String" visibility="public"/>
+        <Method name="getPais" returnType="String" visibility="public"/>
+        <Method name="getEstado" returnType="String" visibility="public"/>
+        <Method name="getCiudad" returnType="String" visibility="public"/>
+        <Method name="getBarrio" returnType="String" visibility="public"/>
+        <Method name="getDiccionario" returnType="String" visibility="public"/>
+        <Method name="getTelefono2" returnType="String" visibility="public"/>
+        <Method name="getTieneCasaPropia" returnType="String" visibility="public"/>
+        <Method name="getNumeroCarros" returnType="String" visibility="public"/>
+        <Method name="getNumeroMascotas" returnType="String" visibility="public"/>
+        <Method name="setNumeroCasas" returnType="void" visibility="public">
+          <Argument type="String" name="numeroCasas"/>
+        </Method>
+        <Method name="setId" returnType="void" visibility="public">
+          <Argument type="String" name="id"/>
+        </Method>
+        <Method name="setPadre" returnType="void" visibility="public">
+          <Argument type="String" name="padre"/>
+        </Method>
+        <Method name="setMadre" returnType="void" visibility="public">
+          <Argument type="String" name="madre"/>
+        </Method>
+        <Method name="setPais" returnType="void" visibility="public">
+          <Argument type="String" name="pais"/>
+        </Method>
+        <Method name="setEstado" returnType="void" visibility="public">
+          <Argument type="String" name="estado"/>
+        </Method>
+        <Method name="setCiudad" returnType="void" visibility="public">
+          <Argument type="String" name="ciudad"/>
+        </Method>
+        <Method name="setBarrio" returnType="void" visibility="public">
+          <Argument type="String" name="barrio"/>
+        </Method>
+        <Method name="setDiccionario" returnType="void" visibility="public">
+          <Argument type="String" name="diccionario"/>
+        </Method>
+        <Method name="setTelefono2" returnType="void" visibility="public">
+          <Argument type="String" name="telefono2"/>
+        </Method>
+        <Method name="setTieneCasaPropia" returnType="void" visibility="public">
+          <Argument type="String" name="tieneCasaPropia"/>
+        </Method>
+        <Method name="setNumeroCarros" returnType="void" visibility="public">
+          <Argument type="String" name="numeroCarros"/>
+        </Method>
+        <Method name="setNumeroMascotas" returnType="void" visibility="public">
+          <Argument type="String" name="numeroMascotas"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ConsulFamilia" package="familias2.Interfaz" visibility="public" xPosition="526.0" yPosition="-859.0">
+      <Fields>
+        <Field name="Limpiar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="MenuBuscar" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="buscaFamilia" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="butonBorrar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="buttonGroup1" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup2" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="datoBarrio" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoCantidadCasa" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoCantidadMas" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoCantidadesCarros" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoCasaPropia" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoCiudad" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoDicc" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoEstado" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoIDMostrar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoMadre" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoPadre" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoPais" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoTel" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jButton5" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButtonEdit" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel13" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jMenuBar1" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="mostrarButon" type="javax.swing.JButton" visibility="private"/>
+        <Field name="mostrarLabel" type="javax.swing.JLabel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="datoCiudadActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoMadreActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="mostrarButonActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoTelActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="butonBorrarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButtonEditActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoPadreActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="buscaFamiliaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="LimpiarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoCantidadesCarrosActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoCantidadMasActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoCasaPropiaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoCantidadCasaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="MenuBuscarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoEstadoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ConsulPersona" package="familias2.Interfaz" visibility="public" xPosition="501.0" yPosition="-738.0">
+      <Fields>
+        <Field name="Limpiar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="MenuBuscar" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="buscaPersona" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="butonBorrar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="buttonGroup1" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup2" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="datoApe2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoCCMostrar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoContra2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoEmail2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoFecha2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoGene2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoNombre2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoRol2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoTel2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jButton5" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButtonEdit" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jMenuBar1" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="mostrarButon" type="javax.swing.JButton" visibility="private"/>
+        <Field name="mostrarLabel" type="javax.swing.JLabel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="datoEmail2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoNombre2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="mostrarButonActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoGene2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="butonBorrarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButtonEditActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoContra2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="buscaPersonaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="LimpiarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Ventana1" package="familias2.Interfaz" visibility="public" xPosition="267.0" yPosition="20.0">
+      <Fields>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jMenuItem1" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Ventana2" package="familias2.Interfaz" visibility="public" xPosition="409.0" yPosition="-373.0">
+      <Fields>
+        <Field name="genero" type="String" visibility="private"/>
+        <Field name="buttonGroup1" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup2" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="crearArchivoBtn" type="javax.swing.JButton" visibility="private"/>
+        <Field name="datoApe" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoCC" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoContra" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoEmail" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoFecha" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoNombre" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoRol" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="datoTel" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="hombreMujerSelec" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton5" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton6" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton7" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="datoEmailActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="datoNombreActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton6ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton7ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="crearArchivoBtnActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Ventana3" package="familias2.Interfaz" visibility="public" xPosition="227.0" yPosition="-710.0">
+      <Fields>
+        <Field name="casaPropia" type="String" visibility="package"/>
+        <Field name="borraFamiliabutton" type="javax.swing.JButton" visibility="private"/>
+        <Field name="cajaBarrio" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaCarros" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaCiudad" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaDicc" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaEstado" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaIdFamilia" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaMadre" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaMascotas" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaPadre" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaPais" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cajaTele" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="cjaNumCasas" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="familiasCrearBoton" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton6" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton7" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel13" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jMenu1" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu10" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu2" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu5" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu6" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu7" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu8" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu9" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenuBar2" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="jMenuBar3" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="jMenuBar4" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="jMenuItem1" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="labelCasaPropia" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="leerFamiliaBoton" type="javax.swing.JButton" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="cajaPaisActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="cajaEstadoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="familiasCrearBotonActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="leerFamiliaBotonActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton6ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton7ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="borraFamiliabuttonActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="cajaTeleActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="cajaCarrosActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="cajaIdFamiliaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="cajaDiccActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="cjaNumCasasActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VentanaMostrarFamilias" package="familias2.Interfaz" visibility="public" xPosition="943.0" yPosition="201.0">
+      <Fields>
+        <Field name="areaId" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="botonMostrarListFamilia" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="labelID" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="listaElementos" type="javax.swing.JList&lt;String&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="listaElementosValueChanged" returnType="void" visibility="private">
+          <Argument type="javax.swing.event.ListSelectionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonMostrarListFamiliaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="areaIdActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VentanaMostrarPersona" package="familias2.Interfaz" visibility="public" xPosition="494.0" yPosition="102.0">
+      <Fields>
+        <Field name="areaCc" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="botonMostrarList" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="listaElementos" type="javax.swing.JList&lt;String&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="listaElementosValueChanged" returnType="void" visibility="private">
+          <Argument type="javax.swing.event.ListSelectionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="botonMostrarListActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="areaCcActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Operaciones" package="familias2" visibility="public" xPosition="319.0" yPosition="313.0">
+      <Fields>
+        <Field name="personaHum" type="Personas" visibility="private"/>
+        <Field name="personaslist" type="HashMap&lt;String, Personas&gt;" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="HashMap&lt;String, Personas&gt;" name="actualPersonasList"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="addPersonas" returnType="void" visibility="public">
+          <Argument type="Personas" name="unaPersona"/>
+        </Method>
+        <Method name="editPersona" returnType="void" visibility="public">
+          <Argument type="Personas" name="unaPersona"/>
+        </Method>
+        <Method name="delePersona" returnType="void" visibility="public">
+          <Argument type="String" name="cc"/>
+        </Method>
+        <Method name="buscPersonas" returnType="Personas" visibility="public">
+          <Argument type="String" name="cc"/>
+        </Method>
+        <Method name="guardarPersonas" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="obtenerPersonas" returnType="HashMap&lt;String, Personas&gt;" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="Operaciones2" package="familias2" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="familiaExistente" type="Familias" visibility="private"/>
+        <Field name="familiasList" type="HashMap&lt;String, Familias&gt;" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="HashMap&lt;String, Familias&gt;" name="actualFamiliaList"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="addFamilias" returnType="void" visibility="public">
+          <Argument type="Familias" name="unaFamilia"/>
+        </Method>
+        <Method name="editFamilia" returnType="void" visibility="public">
+          <Argument type="Familias" name="unaFamilia"/>
+        </Method>
+        <Method name="deleFamilia" returnType="void" visibility="public">
+          <Argument type="String" name="id"/>
+        </Method>
+        <Method name="buscFamilias" returnType="Familias" visibility="public">
+          <Argument type="String" name="id"/>
+        </Method>
+        <Method name="guardarFamilias" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="obtenerFamilias" returnType="HashMap&lt;String, Familias&gt;" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="Personas" package="familias2" visibility="public" xPosition="22.0" yPosition="-84.0">
+      <Fields>
+        <Field name="cc" type="String" visibility="private"/>
+        <Field name="password" type="String" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="apellidos" type="String" visibility="private"/>
+        <Field name="email" type="String" visibility="private"/>
+        <Field name="telefono" type="String" visibility="private"/>
+        <Field name="rol" type="String" visibility="private"/>
+        <Field name="genero" type="String" visibility="private"/>
+        <Field name="fechaNacimiento" type="Date" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getCc" returnType="String" visibility="public"/>
+        <Method name="getPassword" returnType="String" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getApellidos" returnType="String" visibility="public"/>
+        <Method name="getEmail" returnType="String" visibility="public"/>
+        <Method name="getTelefono" returnType="String" visibility="public"/>
+        <Method name="getRol" returnType="String" visibility="public"/>
+        <Method name="getGenero" returnType="String" visibility="public"/>
+        <Method name="getFechaNacimiento" returnType="Date" visibility="public"/>
+        <Method name="setCc" returnType="void" visibility="public">
+          <Argument type="String" name="cc"/>
+        </Method>
+        <Method name="setPassword" returnType="void" visibility="public">
+          <Argument type="String" name="password"/>
+        </Method>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="setApellidos" returnType="void" visibility="public">
+          <Argument type="String" name="apellidos"/>
+        </Method>
+        <Method name="setEmail" returnType="void" visibility="public">
+          <Argument type="String" name="email"/>
+        </Method>
+        <Method name="setTelefono" returnType="void" visibility="public">
+          <Argument type="String" name="telefono"/>
+        </Method>
+        <Method name="setRol" returnType="void" visibility="public">
+          <Argument type="String" name="rol"/>
+        </Method>
+        <Method name="setGenero" returnType="void" visibility="public">
+          <Argument type="String" name="genero"/>
+        </Method>
+        <Method name="setFechaNacimiento" returnType="void" visibility="public">
+          <Argument type="Date" name="fechaNacimiento"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="personaslist" source="familias2.Operaciones" target="familias2.Personas" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="HashMap&lt;String, Personas&gt;"/>
+    <HasRelation name="familiaExistente" source="familias2.Operaciones2" target="familias2.Familias" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="personaHum" source="familias2.Operaciones" target="familias2.Personas" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="familias2.Operaciones" target="familias2.Personas" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="familiasList" source="familias2.Operaciones2" target="familias2.Familias" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="HashMap&lt;String, Familias&gt;"/>
+    <UseRelation source="familias2.Operaciones2" target="familias2.Familias" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
